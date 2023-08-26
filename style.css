@@ -1,0 +1,681 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.displayflex {
+    display: flex;
+    align-items: center;
+}
+
+.nav-main {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0px;
+}
+
+.left-nav {
+    width: 80%;
+    margin-right: 6px;
+    justify-content: space-between;
+}
+
+.left-nav .left img {
+    width: 35px;
+    margin-left: 30px;
+
+    border-radius: 5px;
+
+}
+
+.left-nav .left div {
+    width: 280px;
+    height: 40px;
+    border: 0;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.left-nav .left div img {
+    width: 15px;
+    margin-left: 5px;
+
+}
+
+.left-nav .left div input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 5px;
+    margin-left: 6px;
+}
+
+.left-nav .right {
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+.left-nav .right a {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.left-nav .right img {
+    width: 20px;
+}
+
+.left-nav .right a div img {
+    width: 12px;
+    margin-left: 6px;
+}
+
+.left-nav .right a p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#home {
+    width: 80px;
+    border-bottom: 3px solid black;
+}
+
+.right-nav {
+    width: 20%;
+    height: 55px;
+    border-left: 1px solid gray;
+}
+
+.right-nav img {
+    width: 12px;
+    margin-left: 5px;
+}
+
+.right-nav .r-left {
+    width: 60%;
+}
+
+.right-nav p {
+    font-size: 13px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.right-nav .r-right a {
+    text-decoration: underline;
+    color: rgb(115, 71, 55);
+    font-size: 13px;
+}
+
+
+/* styleing main section*/
+
+.div1 {
+    flex-direction: column;
+    width: 19%;
+    height: 400px;
+
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.div1 .div1-1 {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: rgb(134, 108, 108);
+}
+
+.div1 .div1-2 {
+    flex-direction: column;
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid gray;
+}
+
+.div1 .div1-2 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+     margin-top: -50px;
+    border: 2px solid white;
+}
+
+.div1 .div1-2 h3 {
+    margin-top: 20px;
+
+}
+
+.div1 .div1-2 p {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.div1 .div1-3 {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid gray;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.div1 .div1-3 p {
+    font-size: 14px;
+    color: gray;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.div1 .div1-3 p span {
+    margin-left: 30px;
+    text-align: end;
+}
+
+
+.div1 .div1-4 {
+    width: 100%;
+    height: 60px;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+}
+
+.div1 .div1-4 p {
+    color: gray;
+    font-size: 14px;
+    margin-left: -15px;
+}
+
+.div1 .div1-4 a {
+    text-decoration: underline;
+    color: black;
+}
+
+.div1 .div1-5 {
+    height: 50px;
+}
+
+.div1 .div1-5 p {
+    margin-top: 15px;
+    margin-left: -94px;
+
+}
+
+/* div 2 styleing */
+
+.div2 {
+    margin-left: 30px;
+    margin-top: -268px;
+    height: 100px;
+    width: 47%;
+    border-radius: 10px;
+   
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    background-color: white;
+
+}
+
+
+.div2-1 {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.div2-1 img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.div2-1 .div2-1-1 {
+    width: 70%;
+    border: 1px solid gray;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-left: 20px;
+
+}
+
+.div2-1 .div2-1-1 p {
+    color: gray;
+    margin-left: 30px;
+}
+
+.div2-2 {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.div2-2 img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.div2-2 a {
+    display: flex;
+    align-items: center;
+}
+
+
+/*div 3 styling */
+
+.div3 {
+    
+    flex-direction: column;
+    width: 23%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -20px;
+    margin-left: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.div3 h3 {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.div3 li {
+    margin-top: 10px;
+    text-align: start;
+    
+}
+.position{
+    margin-top: -450px;
+}
+.margintop{
+    margin-top: 10px;
+}    
+
+
+
+.post {
+    margin-left: 310px;
+    
+    border-radius: 10px;
+    flex-direction: column;
+    width: 47%;
+    background-color: white;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pro {
+    flex-direction: column;
+    width: 100%;
+}
+
+.pro-1 {
+    width: 100%;
+    flex-direction: column;
+
+
+}
+
+.pr {
+    border-top-right-radius: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pr img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.pro-1-1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.pro-1-1 p img {
+    width: 15px;
+}
+
+.pro-1 .ad {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.peo-1-1 p {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    padding-top: 15px;
+}
+
+.item .like img {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.item img {
+    width: 500px;
+    height: 600px;
+}
+
+.pro-1-2 {
+    width: 100%;
+}
+
+.pro-1-2 p {
+
+
+    height: 70px;
+    color: rgb(56, 52, 52);
+    font-size: 16px;
+
+    padding-top: 20px;
+    margin-left: 20px;
+
+}
+
+.icon {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid gray;
+    margin-top: 12px;
+
+}
+
+.icon img {
+    width: 25px;
+}
+
+.icon a {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.icon p {
+    margin-left: 10px;
+}
+
+.mar {
+    height: 60px;
+
+}
+
+
+/* fixe box styling */
+
+
+.fixebox1{
+    position: sticky;
+    top: 80px;
+    flex-direction: column;
+    width: 19%;
+    height: 400px;
+   
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.fixebox1 p {
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+
+.blue{
+    color: blue;
+}
+
+.fixebox1 a img{
+    width: 20px;
+    margin-left: 10px;
+}
+.fixebox1 a p{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.fixebox1 a{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.fixebox1 p img{
+    width: 12px;
+}
+.p-center{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+.discover{
+    width: 100%;
+    height: 50px;
+
+    padding-top: 30px;
+    padding-left: 40px;
+    border-top: 1px solid gray;
+}
+.fixebox2{
+    position: sticky;
+    top: 80px;
+    flex-direction: column;
+    width: 23%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -450px;
+    margin-left: 910px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.fixebox2-img1{
+    width: 25px;
+    margin-left: 230px;
+}
+.radius{
+    border-radius: 50%;
+}
+.fixebox2-img2{
+    justify-content: center;
+    padding: 12px;
+}
+.fixebox2-img2 img{
+   width: 55px;
+   height: 55px;
+   margin-left: 10px;
+
+}
+
+.fixebox2 .p-small{
+    text-align: center;
+    font-size: 14px;
+    color:rgb(56, 52, 52) ;
+    
+}
+.p-big{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+    color: gray;
+}
+
+.fixebox2 button{
+       width: 130px;
+       height: 30px;
+       margin-left: 70px;
+       border-radius: 25px;
+       outline: 0;
+       color: blue;
+       background: transparent;
+       border: 2px solid blue;
+}
+
+
+.massage{
+    position: fixed;
+    top: 540px;
+    flex-direction: column;
+    background-color: white;
+    width: 23%;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 945px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.massage1{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.massage1 a{
+    display: flex;
+    align-items: center;
+}
+.massage1 a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    
+}
+.massage1 p{
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+}
+ .massage1-1{
+     margin-right: 40px;
+ }
+.massage1-1 a img{
+   width: 15px;
+   height: 15px;
+   border-radius:0px;
+}
+.inwidth{
+   
+    margin: auto;
+    position: fixed;
+    top: 100px;
+    background-color:white;
+    margin-left: 945px;
+}
+
+.massage2{
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+}
+.massage2 .m-search{
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+    border: 0;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    
+}
+.massage2 .m-search input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.massage2 .m-search img{
+    width: 15px;
+}
+.massage2-1{
+    width: 100%;
+    justify-content: space-around;
+}
+.massage2-1 p{
+    font-size: 17px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 10px;
+}
+.massage3{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+.massage3 .massage3-1{
+    width: 100%;
+    height: 80px;
+}
+.massage3-1 a img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.massage3-1-1{
+    width: 100%;
+    margin-left: -80px;
+}
+.massage3-1-1-1{
+    width: 100%;
+    flex-direction: column;
+}
+.p{
+    font-size: 13px;
+    color: gray;
+}
+.massage3-1-1-2{
+    margin-left:-40px ;
+}
+.massage3-1-1-2 p{
+    color: gray;
+}
+
+
+
+
+
+    
